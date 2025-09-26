@@ -16,7 +16,7 @@ pipeline{
               environment {
                    NPM_CONFIG_CACHE = "${WORKSPACE}/.npm"
                    HOME = "${WORKSPACE}"
-              
+              }
 
               steps{
 
